@@ -23,9 +23,9 @@ function Header() {
       <h1 className="text-xl font-bold">Yasaswini’s Archive</h1>
       <nav className="flex gap-6 text-sm">
         <a href="/" className="hover:underline">Home</a>
-        <a href="/projects" className="hover:underline">Projects</a>
-        <a href="/skills" className="hover:underline">Skills</a>
-        <a href="/contact" className="hover:underline">Contact</a>
+        <a href="#projects" className="hover:underline">Projects</a>
+        <a href="#skills" className="hover:underline">Skills</a>
+        <a href="#contact" className="hover:underline">Contact</a>
       </nav>
     </header>
   );
