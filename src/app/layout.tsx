@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
 function Header() {
   return (
-    <header className="w-full py-4 px-6 shadow-md bg-white flex justify-between items-center sticky top-0 z-50">
+    <header className="h-16 w-full py-4 px-6 shadow-md transparent flex justify-between items-center sticky top-0 z-50">
       <h1 className="text-xl font-bold">Yasaswini’s Archive</h1>
       <nav className="flex gap-6 text-sm">
         <a href="/" className="hover:underline">Home</a>
@@ -47,11 +47,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-gray-50 text-gray-900`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <div className="flex flex-col min-h-screen">
           <Header />
-          <main className="flex-1 container mx-auto px-6 py-10">{children}</main>
+          <main className="flex-1 w-screen m-0">{children}</main>
           <Footer />
         </div>
       </body>
