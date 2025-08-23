@@ -11,7 +11,7 @@ export default function Profiles() {
             href={url}
             target="_blank"
             rel="noreferrer"
-            className="px-4 py-2 bg-gray-800 rounded-lg hover:bg-blue-600 transition"
+            className="px-4 py-2 text-amber-50 bg-gray-800 rounded-lg hover:text-blue-300 transition"
           >
             {platform.toUpperCase()}
           </a>
