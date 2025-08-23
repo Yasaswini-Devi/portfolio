@@ -1,7 +1,7 @@
 export const codingProfiles = {
-  github: "https://github.com/username",
-  leetcode: "https://leetcode.com/username",
-  codeforces: "https://codeforces.com/profile/username",
-  codechef: "https://www.codechef.com/users/username",
-  hackerrank: "https://www.hackerrank.com/username"
+  github: "https://github.com/Yasaswini-Devi",
+  leetcode: "https://leetcode.com/yasaswini_devi",
+  codeforces: "https://codeforces.com/profile/yasaswinidevi",
+  codechef: "https://www.codechef.com/users/yasaswini_devi",
+  hackerrank: "https://www.hackerrank.com/yasaswinidevi"
 };
